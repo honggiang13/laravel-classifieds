@@ -1,0 +1,29 @@
+{
+    "name": "codenexus/classifieds",
+    "description": "Classifieds website developed in Laravel 5.1",
+    "keywords": ["php", "codenexus", "laravel", "classifieds"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Codenexus Studios",
+            "email": "help@codenexus.org"
+        },
+        {
+            "name": "Jeremy Schaffer",
+            "email": "jeremys@codenexus.org",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "~5.0"
+    },
+    "require-dev": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Codenexus\\Classifieds\\": "src/"
+        }
+    }
+}
